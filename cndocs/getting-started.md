@@ -424,7 +424,11 @@ c:\Users\你的用户名\AppData\Local\Android\Sdk
 
 你可以在 Android Studio 的"Preferences"菜单中查看 SDK 的真实路径，具体是**Appearance & Behavior** → **System Settings** → **Android SDK**。
 
+> 最后，您还必须将ANDROID_HOME环境变量配置到Path中，不然后面运行会失败，出现：SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable
+
 你需要关闭现有的命令符提示窗口然后重新打开，这样新的环境变量才能生效。
+
+
 
 <block class="native linux android" />
 
